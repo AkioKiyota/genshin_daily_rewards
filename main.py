@@ -14,9 +14,9 @@ async def main():
     try:
         reward = await client.claim_daily_reward()
     except genshin.AlreadyClaimed:
-        MessageBox(0, 'Already_Claimed', 'GayShit_Cumbag')
+        MessageBox(0, 'Already_Claimed', 'Genshin_Impact')
     else:
-        MessageBox(0, f"Claimed {reward.amount}x {reward.name}", "GayShit_Cumbag")
+        MessageBox(0, f"Claimed {reward.amount}x {reward.name}", "Genshin_Impact")
 
 
 asyncio.run(main())
