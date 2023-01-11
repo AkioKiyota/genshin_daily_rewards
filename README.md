@@ -1,0 +1,1 @@
+# genshin_daily_rewards
