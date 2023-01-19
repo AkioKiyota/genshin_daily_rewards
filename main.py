@@ -1,12 +1,8 @@
 import asyncio
 import genshin
-import json
 from win32api import MessageBox
 
-f = open("data.json")
-cookies = json.load(f)
-
-
+cookies = genshin.utility.get_browser_cookies()
 async def main():
     client = genshin.Client(cookies=cookies, game=genshin.Game.GENSHIN)
     
